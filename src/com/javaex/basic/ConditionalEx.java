@@ -10,12 +10,36 @@ public class ConditionalEx {
 //		ifPractice();
 //		switchEx();
 //		switchEx2();
-		switchEx3();
+//		switchEx3();
+		ifPractice02();
 	}
+	
+	private static void ifPractice02() {
+//		점수를
+//		입력받아 입력된 수가 3의
+//		배수인지 판별하는 프로그램을 작성하시오
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("점수를 입력하세요:");
+		int score = scanner.nextInt();
+		
+		/*
+		if (score % 3 == 0) {
+			//	3의 배수
+			System.out.println(score + "는 3의 배수입니다.");
+		} else {
+			System.out.prinltn(score + "는 3의 배수가 아닙니다.");
+		}
+		*/
+		
+		System.out.println(score + "는 " + (score % 3 == 0 ? "3의 배수입니다" : "3의 배수가 아닙니다."));
+		
+	}
+	
+	
 	
 	//	java의 case 문에는 char, String도 점검할 수 있다
 	private static void switchEx3() {
-		String day = "TUE"
+		String day = "TUE";
 		String message; //	결과 변수
 	
 		switch(day) {
