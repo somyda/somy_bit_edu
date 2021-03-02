@@ -105,8 +105,8 @@ public class ConditionalEx {
 	private static void switchEx() {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("과목코드(1. C, 2. c++, 3. Java, 4. Python): ");
-		
 		int code = scanner.nextInt();
+		
 		case 1:
 			System.out.println("R101입니다.");
 			break;	// 잊지 말자

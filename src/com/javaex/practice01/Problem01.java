@@ -12,7 +12,7 @@ public class Problem01 {
 		//	이면서 7의 배수인 수를 출력하세요
 		int num = 1;
 		for (int i = 1; i <= 100; i++) {
-			if (num % 5 == 0 && num % 7 == 0) break;	//	break문을 만나면 루프를 탈출한다
+			if (num % 5 == 0 && num % 7 == 0) { continue; }
 			num ++;
 		}
 		
