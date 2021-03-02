@@ -13,8 +13,20 @@ public class LoofEx {
 //		continueEx();
 //		breakEx();
 //		nestedFor();
-		nestedForStar();
+//		nestedForStar();
+		sixRandom();
 	}
+	
+	private static void sixRandom() {
+//		1 ~ 45 정수 난수 6개를 출력
+		for (int i = 1; i <= 6; i++) {
+			System.out.println(Math.random());
+			System.out.println((int)(Math.random() * 45) + 1);
+		}
+		// TODO: While문 버전으로 만들어 보자
+	}
+	
+	
 	
 	private static void nestedForStar() {
 		int rowCount = 10;
