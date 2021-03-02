@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
 //	실수
 //	float(4) < double(8)

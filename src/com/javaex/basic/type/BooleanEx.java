@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
 //	불린형
 //	참, 거짓을 다루는 자료형

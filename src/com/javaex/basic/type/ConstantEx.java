@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
 //	상수: 변하지 않는 수
 //	선언, 초기화, 조회는 가능, 변경 불가

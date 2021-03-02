@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
 //	클래스 임포트
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
  /*
   * 목표 : Hello World! 문자열을 출력한다.

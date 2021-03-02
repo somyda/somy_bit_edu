@@ -1,4 +1,4 @@
-package come.javaex.basic.type;
+package com.javaex.basic.type;
 
 //	정수 타입 연습
 // byte(1) < short(2) < int(4: 정수의 기본타입) < long(8)
