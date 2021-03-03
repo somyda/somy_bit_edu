@@ -15,6 +15,10 @@ public class LoofEx {
 //		nestedFor();
 //		nestedForStar();
 		sixRandom();
+		
+		
+		
+		
 	}
 	
 	private static void sixRandom() {
