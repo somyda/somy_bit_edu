@@ -42,7 +42,7 @@ public class ArrayEx {
 		int target[] = new int[10];	//	10개 배열
 		
 		//	복사
-		for (int i = 0; i < source.length; i++) {
+		for (int i = 0; i < source.length; i++) { 
 			target[i] = source[i];
 		}
 		
