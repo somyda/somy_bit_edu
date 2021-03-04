@@ -1,4 +1,4 @@
-package com.javaex.opp.goods.v2;
+package com.javaex.opp.goods.v3;
 
 import com.javaex.opp.goods.v1.Goods;
 
