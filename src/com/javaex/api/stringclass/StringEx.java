@@ -73,7 +73,7 @@ public class StringEx {
 		
 		//	String은 char의 집합
 		char letter[] = {'J', 'a', 'v', 'a'};
-		String s4 = new String(letters);
+		String s4 = new String("letters");
 		
 		System.out.println("s4 = " + s4);
 		
