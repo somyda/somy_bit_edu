@@ -39,7 +39,26 @@ public class StringEx {
 		System.out.println("18 ~ 22" + source.substring(18, 23));	//	18 ~ (22 - 1)
 		
 		//	치환메서드
-		System.out.println("Replace:" + source.replace("Java, "Python"));
+		System.out.println("Replace:" + source.replaceAll("Java", "Python"));
+		
+		//	변환, 치환, 추출 메서드를 수행해도 원본이 변경되지는 않는다
+		System.out.println("원본:" + source);		//	String 불변 객체(immutable)
+		
+		//	Whitespace 제거
+		String str = "            Hello     ";
+		System.out.println("trim:[" + str.trim() + "]");
+		
+		//	문자열 분절
+		String words[] = source.split(" ");	//	공백을 기준으로 문자열 분리 -> 배열
+		
+		for (String data: words) {
+			System.out.println("chunk:" + data);
+		}
+		
+		//	문자열의 비교
+		//	compareTo : 같으면 0, 작으면 -1, 크면 1
+		System.out.println("ABC".compareTo("ABD"));
+		System.out.println("ABC".compareTo("ABC"));
 		
 	}
 	
