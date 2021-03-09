@@ -1,5 +1,6 @@
 package com.javaex.collection.list;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -64,7 +65,7 @@ public class ListEx {
 		
 		//	비우기
 		lst.clear();
-		System.out.println
+		System.out.println("HashSet:" + lst);
 		
 	}
 
