@@ -70,6 +70,7 @@ public class ExceptionEx {
 			System.err.println("발생한 예외:" + e.getClass().getSimpleName());
 		}
 		//	finally 블록은 없을 수도 있다
+	}
 	
 	private static void arithExceptionEx() {
 		//	키보드로부터 정수를 입력
