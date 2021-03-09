@@ -1,4 +1,4 @@
-package com.javaex.api02;
+package com.javaex.api;
 
 import java.util.Arrays;
 

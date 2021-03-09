@@ -4,7 +4,7 @@ public class BoxApp {
 
 	public static void main(String[] args) {
 		IntBox intBox = new IntBox();
-		intBox.setContent(2021);
+		intBox.setCount(2021);
 		
 		//	값을 가져와 봅니다
 		int retVal = intBox.getContent();

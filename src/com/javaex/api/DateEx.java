@@ -1,4 +1,4 @@
-package com.javqaex.api;
+package com.javaex.api;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
