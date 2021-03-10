@@ -53,6 +53,8 @@ public class BufferedCharStreamEx {
 				br.close();	//	보조스트림을 닫으면 주 스트림도 닫힌다
 				bw.close();
 			} catch (Exception e) {
+				
+			}
 		}
 	}
 
