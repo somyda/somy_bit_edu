@@ -2,6 +2,10 @@ package com.javaex.io.bytestream;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
@@ -27,7 +31,7 @@ public class BufferedStreamEx {
 			bos = new BufferedOutputStream(os);
 			
 			//	버퍼를 생성
-			Byte[] data = new byte[102];	//	1KB
+			byte[] data = new byte[102];	//	1KB
 			int size = 0;	//	받아온 데이터의 길이
 			
 			System.out.println("복사 시작");
