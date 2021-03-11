@@ -78,6 +78,7 @@ public class Client {
 				System.out.println("CLIENT:[메시지 수신]:" + rcvMsg);
 			}
 			
+			scanner.close();
 			br.close();
 			bw.close();
 			
