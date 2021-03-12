@@ -15,7 +15,7 @@ public class Rectangle extends Shape {
 
 	@Override
 	public void draw() {
-		System.out.pritnf(
+		System.out.printf(
 				"사각형[x=%d, y=%d, width=%d, height=%d, area=%f]을 그렸습니다.%n",
 				x, y, width, height, area());
 		
